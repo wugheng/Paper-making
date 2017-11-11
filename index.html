@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>a paper</title>
     <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <script src="./jquery-3.2.1.js"></script>
     <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </head>
 <br>
+<body>
+<div class="container">
 <div class="row">
     <div class="col-md-12">
         <h1>统一建模语言测试</h1>
@@ -24,7 +27,7 @@
 <div class="row">
     <div class="col-md-3"><div class="input-group">
         <span class="input-group-addon" id="basic-addon1">班级</span>
-        <input type="text" class="form-control" placeholder="class" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="class" aria-describedby="basic-addon1" >
     </div>
     </div>
     <div class="col-md-3"><div class="input-group">
@@ -38,19 +41,24 @@
     </div>
     </div>
 </div>
-<div class="row"><div class="col-md-12"><h2> 一.填空题(每空5分,共20分)</h2></div></div>
-<div><label for="name">1.UML的中文全称是：</label>
-<div class="col-md-12">
-    <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-</div>
-</div>
-<div>
-<label for="name">2.对象最突出的特征是：</label>
+
 <div class="row">
-<div class="col-md-4"><input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1"></div>
-<div class="col-md-4"><input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1"></div>
-<div class="col-md-4"><input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1"></div><div class="col-md-3"></div>
+    <div class="col-md-12"><h2> 一.填空题(每空5分,共20分)</h2></div></div>
+<div class="row">
+    <div class="col-md-12">
+    <label for="name">1.UML的中文全称是：</label>
+    <input type="text" size="20">
 </div>
+    </div>
+
+
+<div class="row">
+    <div class="col-md-12">
+    <label for="name">2.对象最突出的特征是：</label>
+    <input type="text" size="20">
+    <input type="text" size="20">
+    <input type="text" size="20">
+    </div>
 </div>
 <div class="row"><div class="col-md-12"><h2>二、选择题（每题10分，共20分）</h2></div></div>
 <label for="name">1.UML与软件工程的关系是:</label>
@@ -152,6 +160,9 @@
 <div class="row"><div class="col-md-12"><h2>五、简答题（每题20分，共20分）</h2></div></div>
 <div><textarea rows="10" cols="70">
 </textarea>
+</div>
+    <button class="button">计算分数</button>
+
 </div>
 </body>
 </html>
